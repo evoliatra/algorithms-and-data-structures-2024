@@ -2,7 +2,7 @@ package ru.mirea.practice.s0000001;
 
 import java.util.Stack;
 
-abstract class RPnCalculator {
+abstract class RPncalc {
     public static double calculate(String expression) {
         Stack<Double> stack = new Stack<>();
         String[] tokens = expression.split("\\s+");
